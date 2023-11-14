@@ -87,10 +87,10 @@ library(plyr)
 
 
 #Example data
-FU_month<-c(0, 1.5, 3, 6, 12, 24) #time in months
+FU_month<-c(0, 1.5, 3, 6, 12, 24) #follow-up time in months
 MTPM<-c(0.00, 0.37,0.39,0.44,0.48, 0.49) #group mean MTPM values in mm
 
-#generate data frame of time and mean MTPM migration data
+#generate data frame of follow-up time and mean MTPM migration data
 df<-data.frame(FU_month, MTPM)
 
 
