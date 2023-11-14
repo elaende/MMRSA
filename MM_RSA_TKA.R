@@ -75,7 +75,6 @@
 #Install packages if necessary ---------------------------
 #install.packages("drc")
 #install.packages("plyr")
-#install.packages("reshape2")
 
 # Load libraries ---------------------------
 library(drc)
